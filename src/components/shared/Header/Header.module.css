@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid whitesmoke;
+}
+
+/* Left */
+.left {
+  display: flex;
+  align-items: center;
+  padding-left: 1rem;
+}
+
+.logo {
+  object-fit: contain;
+  height: 8rem;
+  margin-left: 0.5rem;
+  cursor: pointer;
+}
+
+/* Middle */
+.middle {
+  display: flex;
+  flex: 0.7;
+  align-items: center;
+  background-color: whitesmoke;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.input {
+  border: none;
+  width: 100%;
+  padding: 1rem;
+  background-color: transparent;
+  outline-width: 0;
+  font-size: medium;
+}
+
+/* Right */
+.right {
+  display: flex;
+  align-items: center;
+  padding-right: 2rem;
+}
