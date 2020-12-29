@@ -22,6 +22,7 @@ export const Emails = () => {
           subject="Hey fellow streamer!!"
           description="This is a test"
           time="10pm"
+          id={1}
         />
         <EmailRow
           title="Twitch"
