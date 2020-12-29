@@ -1,5 +1,7 @@
 .container {
-  flex: 0.25;
+  flex: 0.3;
+  max-width: 30rem;
+  padding-right: 2rem;
 }
 
 .addButton {
