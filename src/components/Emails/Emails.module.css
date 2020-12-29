@@ -1,0 +1,46 @@
+.container {
+  flex: 1;
+}
+
+.content {
+  flex: 1;
+  padding: 0 1rem;
+  overflow-y: scroll;
+}
+
+.settings {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1rem;
+  border-bottom: 2px solid whitesmoke;
+}
+
+.sections {
+  display: flex;
+  border-bottom: 2px solid whitesmoke;
+}
+
+.section {
+  display: flex;
+  align-items: center;
+  min-width: 20rem;
+  padding: 2rem 1rem;
+  cursor: pointer;
+  color: gray;
+  border-width: 0 !important;
+}
+
+.section:hover {
+  background-color: whitesmoke;
+  border-width: 3px !important;
+}
+
+.selected {
+  background-color: whitesmoke;
+  border-width: 3px !important;
+}
+
+.section > h4 {
+  font-size: 1.4rem;
+  margin-left: 1.5rem;
+}

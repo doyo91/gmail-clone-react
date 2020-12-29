@@ -1,6 +1,6 @@
 import React from "react"
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom"
-import { EmailList, Header, Mail, Sidebar } from "../../components"
+import { Emails, Header, Mail, Sidebar } from "../../components"
 
 import styles from "./Main.module.css"
 export const Main = () => {
@@ -14,7 +14,7 @@ export const Main = () => {
             <Mail />
           </Route>
           <Route path="/">
-            <EmailList />
+            <Emails />
           </Route>
         </Switch>
       </main>
