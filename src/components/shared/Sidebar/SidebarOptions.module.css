@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  align-items: center;
+  height: 4rem;
+  padding: 0 1rem;
+  border-top-right-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  cursor: pointer;
+  color: #818181;
+}
+
+.container:hover,
+.container:hover .title,
+.container:hover .number,
+.active .title,
+.active .number,
+.active {
+  background-color: #fcecec;
+  color: #c04b37;
+  font-weight: 800 !important;
+}
+
+.title {
+  flex: 1;
+  margin-left: 1rem;
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+.number {
+  display: none;
+  font-weight: 300;
+  font-size: 1.6rem;
+}
+
+.container:hover .number {
+  display: inline;
+}
+
+.active .number {
+  display: inline;
+}

@@ -1,10 +1,12 @@
 import React from "react"
-import { Header } from "../../components"
+import { Header, Sidebar } from "../../components"
 
 export const Main = () => {
   return (
     <>
       <Header />
+      <Sidebar />
+      <main></main>
     </>
   )
 }
